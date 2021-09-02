@@ -92,29 +92,36 @@ body {
     position: absolute;
     right: 0;
     bottom: 0;
+    z-index: 1;
   }
 
   #reality {
     position: absolute;
     right: 0;
     bottom: 150px;
+    z-index: 3;
   }
 
   #mind {
     position: fixed;
     right: 0;
-    /* top: right 0; */
   }
 
   #time {
     position: fixed;
     right: 0;
     top: 0;
+    z-index: 2;
   }
 
   h1 {
     position: sticky;
-    top: 0;
-    top: 30px;
-    z-index: 2;
+    top: 0px;
+    z-index: 6;
+  }
+
+  h2 {
+    position: sticky;
+    top: 65px;
+    z-index: 0;
   }
